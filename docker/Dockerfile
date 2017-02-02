@@ -9,5 +9,7 @@ COPY docker/config.ini ./
 
 VOLUME /books
 VOLUME /db
+VOLUME /log
+VOLUME /main
 CMD python cps.py
 EXPOSE 8000
