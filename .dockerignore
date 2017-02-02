@@ -1,0 +1,10 @@
+.git/
+.gitignore
+.dockerignore
+*.db
+*.log
+*.example
+
+.DS_Store
+Thumbs.db
+vendor/

@@ -12,11 +12,12 @@ eggs/
 *.egg-info/
 .installed.cfg
 *.egg
+vendor/
 
 # calibre-web
 *.db
 *.log
-config.ini
+/config.ini
 cps/static/[0-9]*
 
 .idea/
